@@ -3,8 +3,8 @@ let currPlantTile;
 let score = 0;
 let gameover = false;
 let start = document.getElementById("start");
-let speedMole = 2000;
-let speedPlant = 2000;
+let speedMole = 1000;
+let speedPlant = 1000;
 let moleInterval;
 let plantInterval;
 let moleClicked = false;
@@ -128,8 +128,8 @@ function startAgain(){
     score = 0;
     document.getElementById("score").innerText = score.toString();
 
-    speedMole = 2000;
-    speedPlant = 2000;
+    speedMole = 1000;
+    speedPlant = 1000;
 
     startIntervals();
 }
